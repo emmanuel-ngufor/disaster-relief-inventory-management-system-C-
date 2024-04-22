@@ -1,0 +1,22 @@
+In this workshop, I was able to: 
+
+1) -Organize source code into modules using header and implementation files. 
+This involved seperating the source code into modules where each modules can have its own header(.h) file and implementation(.cpp) file. This practice helps in code organisation and makes it easier to manage.
+
+2) -Use Header and Implementation files.
+I learned that in C++ , the header files contain function prototypes, classes, structures and variables meanwhile the implementation files contain the function defintions and actual code for the declarations made in the header files. 
+By doing so, we seperate the interface from implementation which is good programming practice.
+
+3) -Compile and link modular programs.
+I learnt that the compilation process is made up of three stages. The preprocessor which inserts all includes of header files and macros defined, the compiler which translate our source code to machine code to generate object files and finally the linker to link the object files to create and executable program.
+
+4)- Namespaces.
+I was able to understand that a namaspace is a scope for the entities that it encloses. This helps to avoid conflicts when several developers are working on the same project where naming conflicts may arise. We use the sdds namespace for OOP244 and we should never use a using statment in a header file.
+
+5) -I got to use a new data type called bool which stores a logical value true or false. Also bool can be converted to an int to represent 1 for true and 0 for false.
+
+
+Difficulty
+==========
+In my DIY part, I faced difficulties in coding the logic to loop through the file in other to search for a given entry. However, referring back to my notes in IPC44, I was able to find the rewind function which recieves the address of the file and resets the pointer so that the byte we are accessing is the very first byte of the file. By doing so, we don't have to disconnect and connect each time we want to loop through the file.
+	

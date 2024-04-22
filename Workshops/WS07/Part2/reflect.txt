@@ -1,0 +1,45 @@
+LAB Workshop7
+=============
+In completing Workshop #7, I gained a solid understanding of working with derived classes and creating a hierarchical structure in C++. The workshop focused on the implementation of a Container class and its derived class Pack, introducing concepts such as inheritance, function overriding, and the utilization of custom input/output operators.
+Key Learnings:
+Inheritance and Class Hierarchy: I successfully implemented a derived class (Pack) inheriting from a base class (Container). This allowed me to create a structured and modular codebase.
+Function Overriding: The workshop emphasized the shadowing of base class functions in the derived class. I applied this concept when implementing operator overloads like operator+= and operator-= in the Pack class.
+Utilizing Protected Modifiers: I grasped the use of protected modifiers to control access to certain member functions, ensuring that only derived classes could utilize them.
+Custom Input/Output Operators: The creation of custom input/output operators (operator<< and operator>>) enhanced the usability of the classes, enabling streamlined printing and reading operations.
+
+Challenges"
+==========
+In this workshop, I encountered a lot of compilation errors because I have been used to not including header files in another header file. I included the "Container.h" header file in "Pack.cpp" only and this caused my program not to run. However, I spoke to my professor about this, and she made me understand why it necessary to include the “Container.h” header file in the “Pack.h” header file. This was because the compiler does not know what the inherited structure is if it is included only in the implementation file.
+Secondly, I have been having issues with read functions lately, the formatting has a lot of code paths and conditions. The concept of fool proofing and integer had me worried. However, through thorough debugging and reevaluation of the code, I successfully resolved these challenges. Use of in built functions like cin.fail() and cin.ignore() we crucial in my implementation of the read function.
+
+Closing remarks:
+----------------
+"Public inheritance must always model 'is-a' ('works-like-a')" Liskov, 1988.
+"In correct inheritance, a derived class models a special case of a more general ... concept" (Sutter, Alexandrescu, 2005)
+
+
+
+Project Milestone
+=================
+Milestone 2 of the project introduced the User Interface components, specifically the Menu and AidMan classes. This phase aimed to create a structured menu system and a prototype for the application's controller.
+Menu Module: Key Learnings
+Dynamic Memory Allocation: Understanding how to dynamically allocate memory for the menu content and the importance of deallocating it in the destructor to prevent memory leaks.
+Foolproof Integer Entry: Implementing foolproof integer entry for user input, handling cases of non-integer entries and out-of-range values.
+Rule of Three: Grasping the concept of the Rule of Three and applying it to the Menu class to prevent issues related to copying and assignment.
+Menu Display and Selection: Creating a method (run ()) to display the menu content, prompt the user for input, and return the selected option.
+
+AidMan Module: Key Learnings
+Controller Design: Understanding the concept of a controller class (AidMan) that orchestrates the main functionalities of the application.
+Private Methods: Implementing private methods within the AidMan class (e.g., menu()) to handle specific tasks and keep the public interface clean.
+Dynamic Attribute Initialization: Dynamically initializing attributes based on user input and handling cases where certain attributes might be nullptr.
+Application Loop: Creating a run () method to execute the application in a loop, continuously displaying the menu, receiving user input, and executing tasks until the user chooses to exit.
+
+Challenges and Further Steps:
+=============================
+Hollow Implementation: Understanding that, at this stage, the AidMan class is a prototype, and the actual functionality will be added as the system develops.
+File Handling: Realizing the importance of the filename attribute for data file handling and anticipating its role in future stages.
+Building Blocks for Tasks: Acknowledging that the tasks selected from the menu will involve more intricate operations, and the current implementation serves as a foundation for upcoming developments.
+
+In the upcoming phases, I look forward to integrating these building blocks into a fully functional application, handling real data, and implementing the core functionalities of the Aid Management System.
+
+

@@ -1,0 +1,35 @@
+LAB Workshop 10
+==============
+Explanation of the logic and functionality:
+
+select Function Template:
+-------------------------
+Iterates through the array to find occurrences of the specified key.
+Stores the indices of these occurrences in a dynamically allocated array, with a terminator -1 at the end.
+Properly manages memory to avoid leaks by dynamically allocating the array.
+
+csvDisplaySelection Function Template:
+--------------------------------------
+Checks if the indices array is not null and not empty.
+If not empty, iterates through the indices array and displays the corresponding elements from the original array.
+Formats the output as a comma-separated list.
+If the indices array is empty, displays "Empty Selection."
+These functions provide a way to select indices based on a key and display the corresponding elements in a specified format. The templates allow for generic usage with different data types.
+
+Challenges
+==========
+I tried learning how to implement template for classes and it seems a little bit complicated to me, I do not think I have fully understood the material well enough. Also the implementation logic sometimes in the workshops are too vague.
+
+Closing remarks: "Templates are of great utility to programmers in C++, especially when combined with multiple inheritance and operator overloading." Wikipedia, 2013.
+
+Project Milestone 5
+===================
+Menu Logic and User Interaction:
+Modifying the run() function to adjust the menu selection based on certain conditions emphasized the significance of robust menu logic. Ensuring seamless user interaction and providing feedback on the chosen options is crucial for a user-friendly application.
+File I/O Operations:
+The save and load methods required interacting with files to store and retrieve data. This experience enhanced my understanding of file input/output operations, such as opening, reading, and writing to files in a structured manner.
+
+Challenges and Further Steps:
+=============================
+Debugging Dynamic Memory Issues:
+Managing dynamic memory can be error-prone, leading to issues like memory leaks or accessing deallocated memory. Debugging such issues required careful inspection of the code and understanding the order of memory operations.

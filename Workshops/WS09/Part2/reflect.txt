@@ -1,0 +1,41 @@
+LAB Workshop 9
+==============
+Summary
+--------
+This workshop entailed two classes: Student and Graduate. The Student class has attributes for holding the name and age of a student, with the name being dynamically allocated. It includes a default constructor, a parameterized constructor for setting the name and age, the rule of three for proper memory management during copying, assignment, and destruction, and a display method to show the student's name and age.
+
+The Graduate class inherits from the Student class and adds attributes for the supervisor's name and the thesis title, both dynamically allocated. It includes a default constructor, a parameterized constructor that properly allocates memory for the additional attributes and maps to the parent constructor, the rule of three mapped to the appropriate parent operator, and a display method to show the student's name, age, thesis title, and supervisor's name.
+
+Reflection:
+-----------
+The design followed object-oriented principles, encapsulating data within classes and ensuring proper memory management. The use of inheritance allowed room for code reuse, with the Graduate class building upon the Student class. The implementation of the rule of three ensures the correct handling of memory when instances are copied, assigned, or destroyed. The display methods provide a clear way to present information about a student or graduate student. The program structure aligns with good coding practices and facilitates code maintenance and extension.
+
+Challenges
+==========
+MEMORY LEAK MANAGEMENT: OH MY DAYS !!!! Professor.
+Innitially, the main_prof.cpp and the main.file did not have the neccessary namespace sdds which led to my program not recognising any of the objects and data structures I was using. I brought it forward to the Professors's attention and it was corrected.
+However, despite the corrections that were made, the matrix submitter did not let me have a goodnight sleep. It kept on rejecting my submission over and over due to a memory leak. The lesson I learnt from this is that whenever we have derived classes with resources, we are suspposed to implement the rule of three too for the derived class in order to efficiently manage the resources.
+
+Closing remarks: "If you use pointers, you have to think about resource management" Stroustrup, 1997.
+
+
+Project Milestone 4
+===================
+
+Understanding:
+In Milestone 4, I delved into the creation of a Perishable class, extending the Item class. The Perishable class introduces unique attributes such as an expiry date and handling instructions. I grasped the construction principles, initializing a Perishable object with a default constructor and implementing the rule of three for safe copying and assignment. The virtual overrides were crucial, particularly in the readSKU function, where I ensured SKUs adhere to specific criteria.
+
+The save override method was implemented to handle the storage of Perishable items, calling the base class's save function while managing additional details like handling instructions and formatted expiry dates. The display override method showcased conditional printing based on the item's state, linear representation, and presence of handling instructions.
+
+The read override method facilitated user input for Perishable items, with special attention to dynamic memory allocation for handling instructions. The integration of the rule of three and virtual overrides highlighted the practical application of C++ concepts.
+
+
+Challenges and Further Steps:
+=============================
+The challenges encountered during Milestone 4 revolved around managing dynamic memory and ensuring proper implementation of the rule of three. The intricacies of the save and load overrides demanded careful attention, especially in handling instructions and formatted expiry dates. Debugging and ensuring the proper functioning of the read override, including the conditional input for handling instructions, required meticulous testing and correction.
+
+Additionally, understanding the nuances of the display override, especially the conditional printing and formatting, posed a challenge that was overcome through iterative testing and refinement. Overall, the Milestone provided a comprehensive exploration of advanced C++ concepts, reinforcing my understanding of object-oriented programming and memory management.
+
+
+
+

@@ -1,0 +1,27 @@
+Opening comment: Hi Professor Yasamin, The rule of three almost gave me a heart attack regarding resource management each time I took it to matrix.
+
+LAB Workshop 
+============
+Understanding:
+I have thoroughly reviewed the solutions for each deliverable of the workshop and the recent project milestones, ensuring a clear understanding of the concepts covered. Here's what I've learned
+Rule of Three: I've reinforced my understanding of the "Rule of Three" in C++, which involves implementing the copy constructor, copy assignment operator, and destructor when dealing with dynamically allocated resources.
+I've improved my knowledge of input and output streams, specifically using istream and ostream to read and write data, including stream manipulators like peek() and error state management with setstate(). Just like Stroustrup, 1997 said 
+"You don't need to modify istream or ostream to add new << and >> operators"
+The workshop emphasized proper validation of input data and managing error states, ensuring the class behaves correctly even with invalid data.
+Resource Management: I've seen the importance of managing dynamically allocated memory through functions like setEmpty() and allocateAndCopy() to avoid memory leaks.
+
+Difficulties: 
+One of the challenges I encountered was ensuring that resource management and error handling were robust, especially when dealing with dynamically allocated memory. Properly resetting error states with clear() and ignoring remaining input data was crucial for the read() function's success. The read fucntion was crazy. I tried so many different methods but was unable to get the right output. Eventhough the steps for the implementation were given, the logic behind it required alot of reasonning and reviewing the correct_output.txt file on how the output should look like
+
+
+Milestone 1 -ms1
+================
+Understanding:
+In completing this workshop and the associated project milestones, I've gained a deeper understanding of C++ programming and software development practices. Here's a detailed reflection on what I've learned and the challenges I encountered;
+Comparison and operator overloading: The project involved overloading comparison operators and other operators, such as insertion and extraction operators. This deepened my understanding of operator overloading in C++ and how it can be used to customize the behavior of user-defined classes.
+The creation and implementation of the Status class provided valuable insights into C++ object-oriented programming. Handling the state of objects by encapsulating a description and an optional status code was a key aspect of the project. It reinforced the concept of encapsulation and the importance of safe memory management. 
+
+Challenges:
+One of the main challenges I encountered was handling date validation, especially calculating the number of days in each month while considering leap years. Additionally, understanding and implementing operator overloading for complex classes like Status and Date required careful consideration. I have never been good with dates when it comes to programming so this was very difficult to implement for me. The validate private method as well as the write method had a lot paths to check. This made so much difficult to implement and debug the code. I used visual studio's interactive debugger a lot of times which helped me to pause the program mid-execution and observe the state of variables.
+
+Overall, this project provided an excellent opportunity to apply and solidify C++ programming concepts, including object-oriented design, operator overloading, and error handling. It emphasized the importance of clear code organization and documentation for maintaining and extending the software in the future milestones.

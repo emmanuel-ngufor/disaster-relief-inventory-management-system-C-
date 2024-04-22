@@ -1,0 +1,42 @@
+LAB Workshop 8
+==============
+During the completion of this workshop, I reinforced my understanding of key object-oriented programming (OOP) concepts such as abstract classes, pure virtual functions, inheritance, and polymorphism. The creation of the Shape interface and the LblShape abstract class helped solidify my knowledge of designing class hierarchies, encapsulation, and the use of dynamic memory allocation.
+
+The implementation of virtual functions, especially the pure virtual functions in the Shape interface, demonstrated the power of abstraction and the importance of providing a common interface for derived classes. The use of the delete operator in the destructors of the LblShape class highlighted the need for proper memory management in C++.
+
+The concrete classes Line and Rectangle showcased the practical application of the inherited functionality, emphasizing the flexibility and extensibility of OOP. Overloading operators like << and >> for Shape objects demonstrated how to enhance the usability of classes by integrating them with standard C++ streams.
+
+Challenges
+==========
+I encountered challenges related to managing dynamic memory and ensuring proper resource deallocation. These challenges underscored the importance of understanding memory management in C++ to avoid memory leaks and undefined behavior.
+Also, formatting is becoming a major problem for me In workshops, especially functions that have to modify the output to be in a particular format. 
+
+Closing remarks: "Program to an interface, not an implementation" Gamma, Helm, Johnson, Vlissides, 1994.
+
+
+Project Milestone 3
+===================
+In completing Milestone 3 (MS3) of the project, I gained a deeper understanding of interface design, concrete class implementation, and the application of the Rule of Three in C++. The iProduct interface serves as a blueprint for items in the application, defining essential operations such as reading SKU, modifying quantities, and handling output for display and file operations.
+
+The Item class, derived from iProduct, encapsulates attributes like price, quantity on hand, needed quantity, and a dynamic Cstring for description. The implementation adheres to the Rule of Three, ensuring proper memory management during copying, assignment, and destruction. The public and protected methods facilitate interaction with Item objects, enabling modification, comparison, and IO operations.
+
+The iProductTester program validates the functionality of iProduct methods, confirming that there are no memory leaks. This milestone emphasized the importance of effective testing to ensure the correctness and reliability of the implemented classes.
+
+The implementation of insertion and extraction operator overloads for iProduct stream operations enhances the usability of the classes, allowing for seamless integration with standard C++ streams.
+
+Overall, MS3 reinforced my knowledge of interface design, inheritance, and memory management in C++, providing practical experience in building a robust and functional class hierarchy for a product management system.
+
+
+Challenges and Further Steps:
+=============================
+Complex Display Format:
+Implementing the display function with two different formats (linear and descriptive) added complexity. Ensuring that the display output aligns correctly and adheres to the specified format, especially when dealing with varying lengths of descriptions, required careful attention to detail.
+
+File IO Operations:
+Implementing the save and load functions for iProduct involved handling file operations and correctly formatting data for storage and retrieval. Ensuring proper synchronization between the written and read data in tab-separated format presented a challenge.
+
+Foolproof User Input:
+Ensuring foolproof user input during SKU and item information entry posed challenges. Validating user inputs for SKU, quantity, and price required robust error-checking mechanisms. The implementation of readSku and read functions involved handling various input scenarios and providing informative error messages to guide the user.
+
+
+

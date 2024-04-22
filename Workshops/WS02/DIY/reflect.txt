@@ -1,0 +1,8 @@
+In this workshop, I learnt about dynamic memory allocation in C++. Upon the completion of this workshop, I understood that the memory a program uses in C++ is of two types (Static and Dynamic). 
+Static memory is allocated at compile time and Dynamic memory is allocated by the operating system at run time if the program needs it. Memory management is a skill which all programmers need to know. 
+Not forgetting that we have to deallocate any dynamic memory that was allocated. We used the new keyword the allocate dynamic memory and the delete keyword to deallocate dynamic memory allocated by new.
+This was not the case with C. Further research made me learn that this was possible in C by using the keyword malloc for allocation and the keyword free for deallocation.
+
+I would say the most challenging part of the workshop was the error handling mechanism I had to deal with. It is true that knowing C helps you better in learning C++ but sometimes somethings take a while to sink in.
+Unlike workshop 1 , this workshop was very challenging, I spent more 30 hours on trying to get my output to confirm with matrix. Also, a lot of research and online videos helped me. I was able to use functions that are still to be discussed later in the course. 
+

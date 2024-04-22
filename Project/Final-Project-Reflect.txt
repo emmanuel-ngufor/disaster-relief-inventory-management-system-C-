@@ -1,0 +1,33 @@
+========================================================================
+Name: Emmanuel Sahfor Ngufor
+Student Number: 135 801 215
+Email: esngufor@myseneca.ca
+Section: NEE
+Workshop: Final Project Reflect
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been.
+shared with any other student or 3rd party content provider. This submitted.
+piece of work is entirely of my own creation.
+==========================================================================
+reflect.txt - Reflection on Project
+
+Project
+=======
+The final project was quite a lot of work. I would not sit here and lie that I did all the coding by myself. Of course I got outside help from my Professor, classmates and AI tools like chatGPT. The project gave me an insight on how the industry operates. Working with version control systems like Githib is amazing. The project had a lot of features and implementations which were so complicated. Milestones were built upon previous milestones which required major changes for all the intergrated code to work as a whole. I found the project very difficult and it almost affected my mental state. Right now I think I need counselling due to my mental health being greatly affected due to stress and less hours of sleep. I still have a lot o work to study in other to be able to meet the requirements of doing a whole project all by myself. 
+I would like to cite Claudia Suarez, Kazemi Arian and Wing Ho Cheung as top contributors to the success of my project as a whole. I got help ranging from debugging to code snippets as well as explanation. I would not have been able to do this all by myself.
+
+
+Course and Semester Overall
+===========================
+To begin, I came into this course with just some basic knowledge of C++ which I had learn from some YouTube videos. At this moment, I feel a little bit confident to say I have learned a lot. The final project gave me a deeper insight into how the industry might look like. The software commuinity is exciting and I am happy to be a part of it. However, there were ups and downs during the course of the semester and the course as a whole. Most of the workshops were not vidly clear with instructions and this caused a lot of confusion. I used chat GPT and other AI tools due so many reasons such as poorly design instructions and complicated topics which I did not understand. Juggling multiple languages and assignments can be time-consuming and I was a victim of this. Programming often involves teamwork and communication. I was lucky enough to have classmates like Claudia Suarez and Kazemi who were vital members of my friend group which we discussed coding issues and problems. It was not an easy semester at all and I hope I make to the next and do not have to take OOP244 all over again.
+I faced a lot problems during my assignments such as the inability to properly interprete the logic that was being asked. Especially the complex display required by certain workshops and assignments. The Input and Output operations still need some work on my end. 
+I still have a long way to go on my journey and this is just the beginning. I really struggle at coding but I am a hard working student. I am confifent with the right professors as a guide and determination I can make it.
+
+
+Closing Remarks
+===============
+
+Hi Professor Yasamin, 
+
+Here we are at the end of the semester, I would say it has been a rollercoaster and I enjoyed having you as my professor. Thanks and I wish you all the best. Hope I was one of your best students. I woukd be hurt if I did not make the list. I never missed a single class lol.
+
